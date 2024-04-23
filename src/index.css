@@ -1,0 +1,61 @@
+*{
+  margin: 3px;
+}
+.personal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal .boxpersonal{
+  display: flex;
+  flex-direction: row;
+}
+.personal .boxpersonal a{
+  margin: 10px;
+  background-color: rgb(92, 177, 211);
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration:none;
+}
+.personal #image{
+  width: 200px;
+  background-color: rgb(96, 80, 58);
+  border-radius: 40%;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  text-align: justify;
+}
+.interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bodya{
+  width:min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(111, 150, 178);
+  padding: 10px;
+  border-radius: 50px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 75, 75);
+  color: aliceblue;
+}
